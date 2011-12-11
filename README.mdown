@@ -1,0 +1,14 @@
+Dropbox Challenges
+==================
+
+We provide efficient Python solutions to the [Dropbox challenges](http://www.dropbox.com/jobs/challenges).
+
+
+Q3.py - The Dropbox Diet
+------------------------
+
+We solve the [Dropbox Diet](http://www.dropbox.com/jobs/challenges#the-dropbox-diet) challenge with dynamic programming.  
+
+The key step is to recognise the problem as an instance of subset-sum, and use the straightforward pseudo-polynomial time dynamic programming algorithm, which runs in time *O(n(P-N))*, where *n* is the number of activities, *P* is the sum of the calorific values of the activities with positive calorific value, and *N* is the sum of the calorific values of the activities with negative calorific value.
+
+We use this algorithm to determine the existence of a solution, which is then  solution is then found by backtracking.    

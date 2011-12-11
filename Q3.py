@@ -33,13 +33,14 @@ def Q(i, s):
     elif i == 0:
         val = values[0] == s
     else:
-        # Dynamic programming recurrence - we can either construct a sum s subset
+        # Dynamic programming recurrence 
         val = Q(i - 1, s) or values[i] == s or Q(i - 1, s - values[i]) # Eq. 1
     memo[memo_key] = val
     return val
 
 def find_solution(i, cum_sum = 0, sol_so_far  = []):
-    """Backtrace the solution.  Uses the dynamic programming recurrence above in Eq. 1"""
+    """Backtrace the solution.  
+    Uses the dynamic programming recurrence above in Eq. 1"""
     if i < 0:
         # We have completed our backtrace
         pass
