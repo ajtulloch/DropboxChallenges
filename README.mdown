@@ -13,6 +13,15 @@ The key step is to recognise the problem as an instance of subset-sum, and use t
 
 We use this algorithm to determine the existence of a solution, which is then  solution is then found by backtracking.    
 
-To run the code, simply pass in a formatted text file containing the problem specification to `Q3.py`.  For example,
+To run the code, simply pass in a formatted text file containing the problem specification to `Q3.py`.
+
+Example:
 
     cat knapsack.txt | python Q3.py 
+    
+Output:
+
+    coding-six-hours
+    mexican-coke
+    cookies
+
