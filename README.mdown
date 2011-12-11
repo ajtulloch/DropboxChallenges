@@ -15,4 +15,4 @@ We use this algorithm to determine the existence of a solution, which is then  s
 
 To run the code, simply pass in a formatted text file containing the problem specification to `Q3.py`.  For example,
 
-  cat knapsack.txt | python Q3.py 
+    cat knapsack.txt | python Q3.py 
